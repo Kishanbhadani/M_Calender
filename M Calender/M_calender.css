@@ -1,0 +1,68 @@
+.main{
+    width: 30vw;
+    margin: 70px auto;
+}
+.container{
+    max-width: 30vw;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(231, 219, 231);
+    border: 2px solid rgb(199, 112, 199);
+    border-radius: 8px;
+}
+h2{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    color: darkorange;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.info{
+    background-color: rgb(252, 203, 144);
+    color: red;
+}
+table{
+    border: 2px solid salmon;
+    border-collapse: collapse;
+    max-width: 30vw;
+    margin: 23px auto;
+}
+table tbody,tr,td,th,thead{
+    border: 1px solid rgb(248, 96, 41);
+    padding: 7px;
+    margin: 6px;
+}
+table{
+    background-color: rgb(255, 220, 226);
+}
+th{
+    color: darkblue;
+    background-color: rgb(255, 133, 149);
+}
+td:nth-child(1){
+    background-color: rgb(144, 124, 255);
+    color: whitesmoke;
+}
+#prev, #next{
+    color: #fff;
+    background-color: rgb(65, 64, 64);
+    width: 10vw;
+    padding: 5px 5px;
+    border-radius: 15px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    font-weight: bold;
+}
+#next{
+    float: right;
+}
+.btn,form{
+    width: 30vw;
+    margin: 8px auto;
+}
+form{
+    text-align: center;
+}
